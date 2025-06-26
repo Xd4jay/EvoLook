@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '@/data/products';
@@ -16,8 +15,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Section with custom light mode background */}
-      <section className="relative bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50/40 dark:bg-gradient-to-br dark:from-background dark:via-muted/20 dark:to-background">
+      {/* Hero Section with colorful gradient background in light mode */}
+      <section className="relative bg-gradient-to-br from-purple-50 via-blue-50 to-cyan-50 dark:bg-gradient-to-br dark:from-background dark:via-muted/20 dark:to-background">
         <div className="relative container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-muted-foreground to-foreground bg-clip-text text-transparent font-['Playfair_Display']">
