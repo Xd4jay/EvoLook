@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Heart, Cart, Menu, X, User } from 'lucide-react';
+import { Search, Heart, ShoppingCart, Menu, X, User } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
 import { useWishlist } from '@/contexts/WishlistContext';
 import { Button } from '@/components/ui/button';
@@ -81,7 +80,7 @@ const Header = () => {
 
             <Button variant="ghost" size="sm" asChild className="relative">
               <Link to="/cart">
-                <Cart className="w-5 h-5" />
+                <ShoppingCart className="w-5 h-5" />
                 {cartCount > 0 && (
                   <span className="absolute -top-2 -right-2 bg-blue-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                     {cartCount}

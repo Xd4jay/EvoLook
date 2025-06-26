@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Heart, Cart } from 'lucide-react';
+import { Heart, ShoppingCart } from 'lucide-react';
 import { Product } from '@/data/products';
 import { useCart } from '@/contexts/CartContext';
 import { useWishlist } from '@/contexts/WishlistContext';
@@ -103,7 +103,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
               className="w-full bg-black text-white hover:bg-gray-800 transition-colors duration-200"
               size="sm"
             >
-              <Cart className="w-4 h-4 mr-2" />
+              <ShoppingCart className="w-4 h-4 mr-2" />
               Quick Add
             </Button>
           </div>
