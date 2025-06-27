@@ -1,5 +1,5 @@
 <h1 align="center">
-  Welcome to <a href="https://evolook.vercel.app" target="_blank">EvoLook✨</a>
+  Welcome to <a href="https://xd4jay.github.io/EvoLook/" target="_blank">EvoLook✨</a>
 </h1>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://evolook.vercel.app" target="_blank">
+  <a href="https://xd4jay.github.io/EvoLook/" target="_blank">
     🔗 Visit the Live Website
   </a>
 </p>
