@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://xd4jay.github.io/EvoLook/" target="_blank">
-    🔗 Visit the Live Website
+  <a href="https://xd4jay.github.io/EvoLook/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🚀%20View%20Live%20Demo-EvoLook-blueviolet?style=for-the-badge&logo=vercel&logoColor=white" alt="EvoLook Live Demo Button">
   </a>
 </p>
